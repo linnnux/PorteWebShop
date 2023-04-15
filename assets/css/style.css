@@ -1,0 +1,125 @@
+body,h1,h2,h3,h4,h5,h6
+{
+  font-family: "Raleway", Arial, Helvetica, sans-serif
+}
+.logo
+{
+  margin-top:0px;  position:fixed; z-index:99; padding:1px;
+  filter: grayscale(40%);
+  box-shadow: 1px 1px 8px grey;
+  border-radius: 0px 16px 16px 16px;
+}
+.logoName
+{
+  background: linear-gradient(to right,  red, grey, #006699,grey, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   text-shadow: 1px 1px 3px grey;
+  }
+header h1
+{
+  font-size: 14px;
+  margin-top:-60px;
+  background-color: rgba(255, 255, 255, 1);
+  background: linear-gradient(to right,  white, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   position: absolute;
+   text-shadow: 1px 1px 3px black;
+}
+header h2
+{
+  font-size: 32px;
+}
+header article:first-of-type
+{
+  text-align: justify;
+}
+
+nav a img:first-of-type
+{
+   width: 100px;
+}
+nav a:nth-of-type(2)
+{
+   margin-left:128px;"
+}
+
+img
+ {
+   object-fit: cover;
+ }
+
+main img
+{
+  border-radius: 8px 8px 0px 0px;
+  /*box-shadow: 0 2px 8px rgba(0, 0, 0, .5); /* Propriété de l'ombre portée */
+  height: 280px;
+  width: 100%;
+}
+main article
+{
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .5); /* Propriété de l'ombre portée */
+}
+
+aside img
+{
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .5); /* Propriété de l'ombre portée */
+
+}
+footer
+{
+  padding: 32px;
+  margin-top: 32px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+  nav
+  {
+     display: flex;
+     text-align: right;
+
+  }
+  nav .w3-bar-item
+  {
+    width: 10px;
+  }
+  nav a
+  {
+    flex-direction: column;
+    margin: auto;
+    text-align: right;
+    width: 10%;
+    font-size: 12px;
+    padding: 2px;
+
+
+  }
+  nav a img:first-of-type
+  {
+     width: 50px;
+  }
+  nav a:nth-of-type(2)
+  {
+     margin-left:100px;
+  }
+  header article:first-of-type
+  {
+    width: 100%;
+    font-size: 12px;
+    margin-right: 0px;
+  }
+  header article h2:first-of-type
+  {
+    width: 100%;
+    font-size: 14px;
+  }
+}
